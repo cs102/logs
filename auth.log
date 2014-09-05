@@ -6697,3 +6697,8 @@ Sep  5 19:44:50 leaf sudo: pam_unix(sudo:session): session closed for user root
 Sep  5 19:45:00 leaf sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get install xclip
 Sep  5 19:45:00 leaf sudo: pam_unix(sudo:session): session opened for user root by itachi(uid=0)
 Sep  5 19:45:00 leaf sudo: pam_unix(sudo:session): session closed for user root
+Sep  5 19:50:59 leaf sshd[12973]: invalid public DH value: <= 1 [preauth]
+Sep  5 19:50:59 leaf sshd[12973]: Disconnecting: bad client public DH value [preauth]
+Sep  5 19:57:49 leaf sshd[12987]: refused connect from 116.255.152.101 (116.255.152.101)
+Sep  5 20:17:02 leaf CRON[12996]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 20:17:02 leaf CRON[12996]: pam_unix(cron:session): session closed for user root
