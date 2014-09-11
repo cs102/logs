@@ -1,3 +1,5 @@
 Sep  7 12:35:22 leaf tripwire[14405]: Integrity Check Complete: /var/lib/tripwire/leaf.twd TWReport leaf 20140907073505 V:3155 S:100 A:1726 R:1352 C:77
 Sep  8 12:35:19 leaf tripwire[14978]: Integrity Check Complete: /var/lib/tripwire/leaf.twd TWReport leaf 20140908073503 V:3518 S:100 A:1911 R:1536 C:71
 Sep  9 12:35:20 leaf tripwire[15671]: Integrity Check Complete: /var/lib/tripwire/leaf.twd TWReport leaf 20140909073503 V:3544 S:100 A:1931 R:1536 C:77
+Sep 10 12:35:18 leaf tripwire[18845]: Integrity Check Complete: /var/lib/tripwire/leaf.twd TWReport leaf 20140910073502 V:3521 S:100 A:1924 R:1526 C:71
+Sep 11 12:35:20 leaf tripwire[22267]: Integrity Check Complete: /var/lib/tripwire/leaf.twd TWReport leaf 20140911073502 V:3987 S:100 A:2149 R:1746 C:92
