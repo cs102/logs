@@ -21,3 +21,4 @@
 2014-10-14 13:07:30,676 fail2ban.actions: WARNING [ssh] Ban 122.225.97.85
 2014-10-14 13:15:22,847 fail2ban.actions: WARNING [ssh] Ban 88.135.1.99
 2014-10-14 13:22:09,326 fail2ban.actions: WARNING [ssh] Ban 188.246.204.145
+2014-10-14 13:37:31,409 fail2ban.actions: WARNING [ssh] Unban 122.225.97.85
