@@ -1,4 +1,296 @@
-Sep 28 12:35:02 leaf rsyslogd: [origin software="rsyslogd" swVersion="5.8.11" x-pid="1812" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
-Sep 28 12:35:19 leaf tripwire[1172]: Integrity Check Complete: /var/lib/tripwire/leaf.twd TWReport leaf 20140928073503 V:4393 S:100 A:2397 R:1910 C:86
-Sep 29 12:35:02 leaf rsyslogd: [origin software="rsyslogd" swVersion="5.8.11" x-pid="1812" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
-Sep 29 12:35:17 leaf tripwire[1998]: Integrity Check Complete: /var/lib/tripwire/leaf.twd TWReport leaf 20140929073502 V:4352 S:100 A:2378 R:1880 C:94
+Oct 12 12:35:02 leaf rsyslogd: [origin software="rsyslogd" swVersion="5.8.11" x-pid="1812" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Oct 12 12:35:19 leaf tripwire[15913]: Integrity Check Complete: /var/lib/tripwire/leaf.twd TWReport leaf 20141012073503 V:4447 S:100 A:2435 R:1910 C:102
+Oct 13 12:35:02 leaf rsyslogd: [origin software="rsyslogd" swVersion="5.8.11" x-pid="1812" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Oct 13 12:35:19 leaf tripwire[16884]: Integrity Check Complete: /var/lib/tripwire/leaf.twd TWReport leaf 20141013073502 V:4451 S:100 A:2436 R:1910 C:105
+Oct 14 12:35:01 leaf rsyslogd: [origin software="rsyslogd" swVersion="5.8.11" x-pid="1812" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Oct 14 12:35:16 leaf tripwire[17488]: Integrity Check Complete: /var/lib/tripwire/leaf.twd TWReport leaf 20141014073502 V:4404 S:100 A:2417 R:1880 C:107
+Oct 14 12:47:15 leaf kernel: imklog 5.8.11, log source = /proc/kmsg started.
+Oct 14 12:47:15 leaf rsyslogd: [origin software="rsyslogd" swVersion="5.8.11" x-pid="20426" x-info="http://www.rsyslog.com"] start
+Oct 14 12:47:15 leaf rsyslogd: [origin software="rsyslogd" swVersion="5.8.11" x-pid="20426" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Oct 14 13:07:28 leaf kernel: imklog 5.8.11, log source = /proc/kmsg started.
+Oct 14 13:07:28 leaf rsyslogd: [origin software="rsyslogd" swVersion="5.8.11" x-pid="1835" x-info="http://www.rsyslog.com"] start
+Oct 14 13:07:28 leaf kernel: [    0.000000] Initializing cgroup subsys cpuset
+Oct 14 13:07:28 leaf kernel: [    0.000000] Initializing cgroup subsys cpu
+Oct 14 13:07:28 leaf kernel: [    0.000000] Linux version 3.2.0-4-amd64 (debian-kernel@lists.debian.org) (gcc version 4.6.3 (Debian 4.6.3-14) ) #1 SMP Debian 3.2.54-2
+Oct 14 13:07:28 leaf kernel: [    0.000000] Command line: root=LABEL=DOROOT ro
+Oct 14 13:07:28 leaf kernel: [    0.000000] BIOS-provided physical RAM map:
+Oct 14 13:07:28 leaf kernel: [    0.000000]  BIOS-e820: 0000000000000000 - 000000000009fc00 (usable)
+Oct 14 13:07:28 leaf kernel: [    0.000000]  BIOS-e820: 000000000009fc00 - 00000000000a0000 (reserved)
+Oct 14 13:07:28 leaf kernel: [    0.000000]  BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)
+Oct 14 13:07:28 leaf kernel: [    0.000000]  BIOS-e820: 0000000000100000 - 000000001fffe000 (usable)
+Oct 14 13:07:28 leaf kernel: [    0.000000]  BIOS-e820: 000000001fffe000 - 0000000020000000 (reserved)
+Oct 14 13:07:28 leaf kernel: [    0.000000]  BIOS-e820: 00000000feffc000 - 00000000ff000000 (reserved)
+Oct 14 13:07:28 leaf kernel: [    0.000000]  BIOS-e820: 00000000fffc0000 - 0000000100000000 (reserved)
+Oct 14 13:07:28 leaf kernel: [    0.000000] NX (Execute Disable) protection: active
+Oct 14 13:07:28 leaf kernel: [    0.000000] SMBIOS 2.4 present.
+Oct 14 13:07:28 leaf kernel: [    0.000000] No AGP bridge found
+Oct 14 13:07:28 leaf kernel: [    0.000000] last_pfn = 0x1fffe max_arch_pfn = 0x400000000
+Oct 14 13:07:28 leaf kernel: [    0.000000] x86 PAT enabled: cpu 0, old 0x70406, new 0x7010600070106
+Oct 14 13:07:28 leaf kernel: [    0.000000] found SMP MP-table at [ffff8800000f1af0] f1af0
+Oct 14 13:07:28 leaf kernel: [    0.000000] Using GB pages for direct mapping
+Oct 14 13:07:28 leaf kernel: [    0.000000] init_memory_mapping: 0000000000000000-000000001fffe000
+Oct 14 13:07:28 leaf kernel: [    0.000000] RAMDISK: 1f625000 - 1fff0000
+Oct 14 13:07:28 leaf kernel: [    0.000000] ACPI: RSDP 00000000000f1990 00014 (v00 BOCHS )
+Oct 14 13:07:28 leaf kernel: [    0.000000] ACPI: RSDT 000000001fffe450 00034 (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)
+Oct 14 13:07:28 leaf kernel: [    0.000000] ACPI: FACP 000000001fffff80 00074 (v01 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+Oct 14 13:07:28 leaf kernel: [    0.000000] ACPI: DSDT 000000001fffe490 01137 (v01 BOCHS  BXPCDSDT 00000001 BXPC 00000001)
+Oct 14 13:07:28 leaf kernel: [    0.000000] ACPI: FACS 000000001fffff40 00040
+Oct 14 13:07:28 leaf kernel: [    0.000000] ACPI: SSDT 000000001ffff700 00838 (v01 BOCHS  BXPCSSDT 00000001 BXPC 00000001)
+Oct 14 13:07:28 leaf kernel: [    0.000000] ACPI: APIC 000000001ffff610 00078 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+Oct 14 13:07:28 leaf kernel: [    0.000000] ACPI: HPET 000000001ffff5d0 00038 (v01 BOCHS  BXPCHPET 00000001 BXPC 00000001)
+Oct 14 13:07:28 leaf kernel: [    0.000000] No NUMA configuration found
+Oct 14 13:07:28 leaf kernel: [    0.000000] Faking a node at 0000000000000000-000000001fffe000
+Oct 14 13:07:28 leaf kernel: [    0.000000] Initmem setup node 0 0000000000000000-000000001fffe000
+Oct 14 13:07:28 leaf kernel: [    0.000000]   NODE_DATA [000000001fff6000 - 000000001fffafff]
+Oct 14 13:07:28 leaf kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Oct 14 13:07:28 leaf kernel: [    0.000000] kvm-clock: cpu 0, msr 0:16a9701, boot clock
+Oct 14 13:07:28 leaf kernel: [    0.000000] Zone PFN ranges:
+Oct 14 13:07:28 leaf kernel: [    0.000000]   DMA      0x00000010 -> 0x00001000
+Oct 14 13:07:28 leaf kernel: [    0.000000]   DMA32    0x00001000 -> 0x00100000
+Oct 14 13:07:28 leaf kernel: [    0.000000]   Normal   empty
+Oct 14 13:07:28 leaf kernel: [    0.000000] Movable zone start PFN for each node
+Oct 14 13:07:28 leaf kernel: [    0.000000] early_node_map[2] active PFN ranges
+Oct 14 13:07:28 leaf kernel: [    0.000000]     0: 0x00000010 -> 0x0000009f
+Oct 14 13:07:28 leaf kernel: [    0.000000]     0: 0x00000100 -> 0x0001fffe
+Oct 14 13:07:28 leaf kernel: [    0.000000] ACPI: PM-Timer IO Port: 0xb008
+Oct 14 13:07:28 leaf kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Oct 14 13:07:28 leaf kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Oct 14 13:07:28 leaf kernel: [    0.000000] ACPI: IOAPIC (id[0x00] address[0xfec00000] gsi_base[0])
+Oct 14 13:07:28 leaf kernel: [    0.000000] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Oct 14 13:07:28 leaf kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Oct 14 13:07:28 leaf kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Oct 14 13:07:28 leaf kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Oct 14 13:07:28 leaf kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Oct 14 13:07:28 leaf kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Oct 14 13:07:28 leaf kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Oct 14 13:07:28 leaf kernel: [    0.000000] ACPI: HPET id: 0x8086a201 base: 0xfed00000
+Oct 14 13:07:28 leaf kernel: [    0.000000] SMP: Allowing 1 CPUs, 0 hotplug CPUs
+Oct 14 13:07:28 leaf kernel: [    0.000000] PM: Registered nosave memory: 000000000009f000 - 00000000000a0000
+Oct 14 13:07:28 leaf kernel: [    0.000000] PM: Registered nosave memory: 00000000000a0000 - 00000000000f0000
+Oct 14 13:07:28 leaf kernel: [    0.000000] PM: Registered nosave memory: 00000000000f0000 - 0000000000100000
+Oct 14 13:07:28 leaf kernel: [    0.000000] Allocating PCI resources starting at 20000000 (gap: 20000000:deffc000)
+Oct 14 13:07:28 leaf kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Oct 14 13:07:28 leaf kernel: [    0.000000] setup_percpu: NR_CPUS:512 nr_cpumask_bits:512 nr_cpu_ids:1 nr_node_ids:1
+Oct 14 13:07:28 leaf kernel: [    0.000000] PERCPU: Embedded 28 pages/cpu @ffff88001f200000 s82944 r8192 d23552 u2097152
+Oct 14 13:07:28 leaf kernel: [    0.000000] kvm-clock: cpu 0, msr 0:1f213701, primary cpu clock
+Oct 14 13:07:28 leaf kernel: [    0.000000] KVM setup async PF for cpu 0
+Oct 14 13:07:28 leaf kernel: [    0.000000] kvm-stealtime: cpu 0, msr 1f20dfc0
+Oct 14 13:07:28 leaf kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 129160
+Oct 14 13:07:28 leaf kernel: [    0.000000] Policy zone: DMA32
+Oct 14 13:07:28 leaf kernel: [    0.000000] Kernel command line: root=LABEL=DOROOT ro
+Oct 14 13:07:28 leaf kernel: [    0.000000] PID hash table entries: 2048 (order: 2, 16384 bytes)
+Oct 14 13:07:28 leaf kernel: [    0.000000] xsave/xrstor: enabled xstate_bv 0x7, cntxt size 0x340
+Oct 14 13:07:28 leaf kernel: [    0.000000] Checking aperture...
+Oct 14 13:07:28 leaf kernel: [    0.000000] No AGP bridge found
+Oct 14 13:07:28 leaf kernel: [    0.000000] Memory: 497000k/524280k available (3429k kernel code, 452k absent, 26828k reserved, 3309k data, 576k init)
+Oct 14 13:07:28 leaf kernel: [    0.000000] Hierarchical RCU implementation.
+Oct 14 13:07:28 leaf kernel: [    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+Oct 14 13:07:28 leaf kernel: [    0.000000] NR_IRQS:33024 nr_irqs:256 16
+Oct 14 13:07:28 leaf kernel: [    0.000000] Console: colour VGA+ 80x25
+Oct 14 13:07:28 leaf kernel: [    0.000000] console [tty0] enabled
+Oct 14 13:07:28 leaf kernel: [    0.000000] Detected 2400.000 MHz processor.
+Oct 14 13:07:28 leaf kernel: [    0.008000] Calibrating delay loop (skipped) preset value.. 4800.00 BogoMIPS (lpj=9600000)
+Oct 14 13:07:28 leaf kernel: [    0.008000] pid_max: default: 32768 minimum: 301
+Oct 14 13:07:28 leaf kernel: [    0.008000] Security Framework initialized
+Oct 14 13:07:28 leaf kernel: [    0.008000] AppArmor: AppArmor disabled by boot time parameter
+Oct 14 13:07:28 leaf kernel: [    0.008000] Dentry cache hash table entries: 65536 (order: 7, 524288 bytes)
+Oct 14 13:07:28 leaf kernel: [    0.008000] Inode-cache hash table entries: 32768 (order: 6, 262144 bytes)
+Oct 14 13:07:28 leaf kernel: [    0.008000] Mount-cache hash table entries: 256
+Oct 14 13:07:28 leaf kernel: [    0.008199] Initializing cgroup subsys cpuacct
+Oct 14 13:07:28 leaf kernel: [    0.008570] Initializing cgroup subsys memory
+Oct 14 13:07:28 leaf kernel: [    0.008950] Initializing cgroup subsys devices
+Oct 14 13:07:28 leaf kernel: [    0.009377] Initializing cgroup subsys freezer
+Oct 14 13:07:28 leaf kernel: [    0.009736] Initializing cgroup subsys net_cls
+Oct 14 13:07:28 leaf kernel: [    0.010092] Initializing cgroup subsys blkio
+Oct 14 13:07:28 leaf kernel: [    0.010462] Initializing cgroup subsys perf_event
+Oct 14 13:07:28 leaf kernel: [    0.012177] mce: CPU supports 10 MCE banks
+Oct 14 13:07:28 leaf kernel: [    0.012752] SMP alternatives: switching to UP code
+Oct 14 13:07:28 leaf kernel: [    0.020060] Freeing SMP alternatives: 8k freed
+Oct 14 13:07:28 leaf kernel: [    0.020425] ACPI: Core revision 20110623
+Oct 14 13:07:28 leaf kernel: [    0.023500] Enabling x2apic
+Oct 14 13:07:28 leaf kernel: [    0.023869] Enabled x2apic
+Oct 14 13:07:28 leaf kernel: [    0.024008] Switched APIC routing to physical x2apic.
+Oct 14 13:07:28 leaf kernel: [    0.025569] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Oct 14 13:07:28 leaf kernel: [    0.025966] CPU0: Intel(R) Xeon(R) CPU E5-2630L v2 @ 2.40GHz stepping 04
+Oct 14 13:07:28 leaf kernel: [    0.028001] Performance Events: generic architected perfmon, Intel PMU driver.
+Oct 14 13:07:28 leaf kernel: [    0.028641] ... version:                2
+Oct 14 13:07:28 leaf kernel: [    0.028986] ... bit width:              48
+Oct 14 13:07:28 leaf kernel: [    0.029330] ... generic registers:      4
+Oct 14 13:07:28 leaf kernel: [    0.029671] ... value mask:             0000ffffffffffff
+Oct 14 13:07:28 leaf kernel: [    0.030078] ... max period:             000000007fffffff
+Oct 14 13:07:28 leaf kernel: [    0.030450] ... fixed-purpose events:   3
+Oct 14 13:07:28 leaf kernel: [    0.032004] ... event mask:             000000070000000f
+Oct 14 13:07:28 leaf kernel: [    0.032671] NMI watchdog enabled, takes one hw-pmu counter.
+Oct 14 13:07:28 leaf kernel: [    0.033101] Brought up 1 CPUs
+Oct 14 13:07:28 leaf kernel: [    0.033438] Total of 1 processors activated (4800.00 BogoMIPS).
+Oct 14 13:07:28 leaf kernel: [    0.036861] devtmpfs: initialized
+Oct 14 13:07:28 leaf kernel: [    0.040318] print_constraints: dummy: 
+Oct 14 13:07:28 leaf kernel: [    0.042371] NET: Registered protocol family 16
+Oct 14 13:07:28 leaf kernel: [    0.044568] ACPI: bus type pci registered
+Oct 14 13:07:28 leaf kernel: [    0.045294] PCI: Using configuration type 1 for base access
+Oct 14 13:07:28 leaf kernel: [    0.049662] bio: create slab <bio-0> at 0
+Oct 14 13:07:28 leaf kernel: [    0.051480] ACPI: Added _OSI(Module Device)
+Oct 14 13:07:28 leaf kernel: [    0.052047] ACPI: Added _OSI(Processor Device)
+Oct 14 13:07:28 leaf kernel: [    0.052811] ACPI: Added _OSI(3.0 _SCP Extensions)
+Oct 14 13:07:28 leaf kernel: [    0.053255] ACPI: Added _OSI(Processor Aggregator Device)
+Oct 14 13:07:28 leaf kernel: [    0.058033] ACPI: Interpreter enabled
+Oct 14 13:07:28 leaf kernel: [    0.058412] ACPI: (supports S0 S3 S4 S5)
+Oct 14 13:07:28 leaf kernel: [    0.059143] ACPI: Using IOAPIC for interrupt routing
+Oct 14 13:07:28 leaf kernel: [    0.069195] ACPI: No dock devices found.
+Oct 14 13:07:28 leaf kernel: [    0.069781] HEST: Table not found.
+Oct 14 13:07:28 leaf kernel: [    0.070287] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Oct 14 13:07:28 leaf kernel: [    0.071369] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Oct 14 13:07:28 leaf kernel: [    0.072726] pci_root PNP0A03:00: host bridge window [io  0x0000-0x0cf7]
+Oct 14 13:07:28 leaf kernel: [    0.073536] pci_root PNP0A03:00: host bridge window [io  0x0d00-0xffff]
+Oct 14 13:07:28 leaf kernel: [    0.074384] pci_root PNP0A03:00: host bridge window [mem 0x000a0000-0x000bffff]
+Oct 14 13:07:28 leaf kernel: [    0.075646] pci_root PNP0A03:00: host bridge window [mem 0x80000000-0xfebfffff]
+Oct 14 13:07:28 leaf kernel: [    0.093057] pci 0000:00:01.3: quirk: [io  0xb000-0xb03f] claimed by PIIX4 ACPI
+Oct 14 13:07:28 leaf kernel: [    0.093671] pci 0000:00:01.3: quirk: [io  0xb100-0xb10f] claimed by PIIX4 SMB
+Oct 14 13:07:28 leaf kernel: [    0.137380]  pci0000:00: Unable to request _OSC control (_OSC support mask: 0x1e)
+Oct 14 13:07:28 leaf kernel: [    0.144187] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Oct 14 13:07:28 leaf kernel: [    0.145405] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Oct 14 13:07:28 leaf kernel: [    0.147967] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Oct 14 13:07:28 leaf kernel: [    0.149039] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Oct 14 13:07:28 leaf kernel: [    0.150774] ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+Oct 14 13:07:28 leaf kernel: [    0.152627] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Oct 14 13:07:28 leaf kernel: [    0.153995] vgaarb: loaded
+Oct 14 13:07:28 leaf kernel: [    0.154641] vgaarb: bridge control possible 0000:00:02.0
+Oct 14 13:07:28 leaf kernel: [    0.155570] PCI: Using ACPI for IRQ routing
+Oct 14 13:07:28 leaf kernel: [    0.156637] HPET: 3 timers in total, 0 timers will be used for per-cpu timer
+Oct 14 13:07:28 leaf kernel: [    0.157076] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+Oct 14 13:07:28 leaf kernel: [    0.157807] hpet0: 3 comparators, 64-bit 100.000000 MHz counter
+Oct 14 13:07:28 leaf kernel: [    0.164174] Switching to clocksource kvm-clock
+Oct 14 13:07:28 leaf kernel: [    0.193011] pnp: PnP ACPI init
+Oct 14 13:07:28 leaf kernel: [    0.193638] ACPI: bus type pnp registered
+Oct 14 13:07:28 leaf kernel: [    0.195912] pnp: PnP ACPI: found 7 devices
+Oct 14 13:07:28 leaf kernel: [    0.196530] ACPI: ACPI bus type pnp unregistered
+Oct 14 13:07:28 leaf kernel: [    0.205671] NET: Registered protocol family 2
+Oct 14 13:07:28 leaf kernel: [    0.206146] IP route cache hash table entries: 4096 (order: 3, 32768 bytes)
+Oct 14 13:07:28 leaf kernel: [    0.206892] TCP established hash table entries: 16384 (order: 6, 262144 bytes)
+Oct 14 13:07:28 leaf kernel: [    0.208161] TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+Oct 14 13:07:28 leaf kernel: [    0.212478] TCP: Hash tables configured (established 16384 bind 16384)
+Oct 14 13:07:28 leaf kernel: [    0.213297] TCP reno registered
+Oct 14 13:07:28 leaf kernel: [    0.213966] UDP hash table entries: 256 (order: 1, 8192 bytes)
+Oct 14 13:07:28 leaf kernel: [    0.214656] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+Oct 14 13:07:28 leaf kernel: [    0.215922] NET: Registered protocol family 1
+Oct 14 13:07:28 leaf kernel: [    0.216549] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Oct 14 13:07:28 leaf kernel: [    0.217113] pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Oct 14 13:07:28 leaf kernel: [    0.218046] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Oct 14 13:07:28 leaf kernel: [    0.218813] ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 11
+Oct 14 13:07:28 leaf kernel: [    0.220299] Unpacking initramfs...
+Oct 14 13:07:28 leaf kernel: [    0.567328] Freeing initrd memory: 10028k freed
+Oct 14 13:07:28 leaf kernel: [    0.571176] audit: initializing netlink socket (disabled)
+Oct 14 13:07:28 leaf kernel: [    0.571599] type=2000 audit(1413310045.564:1): initialized
+Oct 14 13:07:28 leaf kernel: [    0.586704] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Oct 14 13:07:28 leaf kernel: [    0.587406] VFS: Disk quotas dquot_6.5.2
+Oct 14 13:07:28 leaf kernel: [    0.587793] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Oct 14 13:07:28 leaf kernel: [    0.588365] msgmni has been set to 990
+Oct 14 13:07:28 leaf kernel: [    0.597340] alg: No test for stdrng (krng)
+Oct 14 13:07:28 leaf kernel: [    0.597730] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+Oct 14 13:07:28 leaf kernel: [    0.598333] io scheduler noop registered
+Oct 14 13:07:28 leaf kernel: [    0.598681] io scheduler deadline registered
+Oct 14 13:07:28 leaf kernel: [    0.599047] io scheduler cfq registered (default)
+Oct 14 13:07:28 leaf kernel: [    0.599509] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Oct 14 13:07:28 leaf kernel: [    0.599932] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Oct 14 13:07:28 leaf kernel: [    0.600377] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Oct 14 13:07:28 leaf kernel: [    0.600871] acpiphp: Slot [3] registered
+Oct 14 13:07:28 leaf kernel: [    0.601243] acpiphp: Slot [4] registered
+Oct 14 13:07:28 leaf kernel: [    0.601631] acpiphp: Slot [5] registered
+Oct 14 13:07:28 leaf kernel: [    0.601997] acpiphp: Slot [6] registered
+Oct 14 13:07:28 leaf kernel: [    0.602366] acpiphp: Slot [7] registered
+Oct 14 13:07:28 leaf kernel: [    0.602748] acpiphp: Slot [8] registered
+Oct 14 13:07:28 leaf kernel: [    0.603127] acpiphp: Slot [9] registered
+Oct 14 13:07:28 leaf kernel: [    0.603491] acpiphp: Slot [10] registered
+Oct 14 13:07:28 leaf kernel: [    0.603863] acpiphp: Slot [11] registered
+Oct 14 13:07:28 leaf kernel: [    0.604303] acpiphp: Slot [12] registered
+Oct 14 13:07:28 leaf kernel: [    0.604672] acpiphp: Slot [13] registered
+Oct 14 13:07:28 leaf kernel: [    0.605048] acpiphp: Slot [14] registered
+Oct 14 13:07:28 leaf kernel: [    0.605429] acpiphp: Slot [15] registered
+Oct 14 13:07:28 leaf kernel: [    0.605803] acpiphp: Slot [16] registered
+Oct 14 13:07:28 leaf kernel: [    0.606179] acpiphp: Slot [17] registered
+Oct 14 13:07:28 leaf kernel: [    0.606551] acpiphp: Slot [18] registered
+Oct 14 13:07:28 leaf kernel: [    0.606925] acpiphp: Slot [19] registered
+Oct 14 13:07:28 leaf kernel: [    0.607301] acpiphp: Slot [20] registered
+Oct 14 13:07:28 leaf kernel: [    0.607670] acpiphp: Slot [21] registered
+Oct 14 13:07:28 leaf kernel: [    0.608083] acpiphp: Slot [22] registered
+Oct 14 13:07:28 leaf kernel: [    0.608477] acpiphp: Slot [23] registered
+Oct 14 13:07:28 leaf kernel: [    0.608844] acpiphp: Slot [24] registered
+Oct 14 13:07:28 leaf kernel: [    0.609217] acpiphp: Slot [25] registered
+Oct 14 13:07:28 leaf kernel: [    0.609602] acpiphp: Slot [26] registered
+Oct 14 13:07:28 leaf kernel: [    0.609976] acpiphp: Slot [27] registered
+Oct 14 13:07:28 leaf kernel: [    0.610344] acpiphp: Slot [28] registered
+Oct 14 13:07:28 leaf kernel: [    0.610724] acpiphp: Slot [29] registered
+Oct 14 13:07:28 leaf kernel: [    0.611099] acpiphp: Slot [30] registered
+Oct 14 13:07:28 leaf kernel: [    0.611468] acpiphp: Slot [31] registered
+Oct 14 13:07:28 leaf kernel: [    0.612053] ERST: Table is not found!
+Oct 14 13:07:28 leaf kernel: [    0.612404] GHES: HEST is not enabled!
+Oct 14 13:07:28 leaf kernel: [    0.612831] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Oct 14 13:07:28 leaf kernel: [    0.644418] serial8250: ttyS0 at I/O 0x3f8 (irq = 4) is a 16550A
+Oct 14 13:07:28 leaf kernel: [    0.676074] 00:05: ttyS0 at I/O 0x3f8 (irq = 4) is a 16550A
+Oct 14 13:07:28 leaf kernel: [    0.676776] Linux agpgart interface v0.103
+Oct 14 13:07:28 leaf kernel: [    0.679301] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Oct 14 13:07:28 leaf kernel: [    0.680960] serio: i8042 KBD port at 0x60,0x64 irq 1
+Oct 14 13:07:28 leaf kernel: [    0.681371] serio: i8042 AUX port at 0x60,0x64 irq 12
+Oct 14 13:07:28 leaf kernel: [    0.681941] mousedev: PS/2 mouse device common for all mice
+Oct 14 13:07:28 leaf kernel: [    0.682727] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+Oct 14 13:07:28 leaf kernel: [    0.683826] rtc_cmos 00:01: RTC can wake from S4
+Oct 14 13:07:28 leaf kernel: [    0.685061] rtc_cmos 00:01: rtc core: registered rtc_cmos as rtc0
+Oct 14 13:07:28 leaf kernel: [    0.686033] rtc0: alarms up to one day, 114 bytes nvram, hpet irqs
+Oct 14 13:07:28 leaf kernel: [    0.686699] cpuidle: using governor ladder
+Oct 14 13:07:28 leaf kernel: [    0.687274] cpuidle: using governor menu
+Oct 14 13:07:28 leaf kernel: [    0.687921] TCP cubic registered
+Oct 14 13:07:28 leaf kernel: [    0.688589] NET: Registered protocol family 10
+Oct 14 13:07:28 leaf kernel: [    0.689620] Mobile IPv6
+Oct 14 13:07:28 leaf kernel: [    0.689972] NET: Registered protocol family 17
+Oct 14 13:07:28 leaf kernel: [    0.690378] Registering the dns_resolver key type
+Oct 14 13:07:28 leaf kernel: [    0.691287] registered taskstats version 1
+Oct 14 13:07:28 leaf kernel: [    0.692175] rtc_cmos 00:01: setting system clock to 2014-10-14 18:07:25 UTC (1413310045)
+Oct 14 13:07:28 leaf kernel: [    0.693210] Initializing network drop monitor service
+Oct 14 13:07:28 leaf kernel: [    0.695758] Freeing unused kernel memory: 576k freed
+Oct 14 13:07:28 leaf kernel: [    0.696620] Write protecting the kernel read-only data: 6144k
+Oct 14 13:07:28 leaf kernel: [    0.698848] Freeing unused kernel memory: 648k freed
+Oct 14 13:07:28 leaf kernel: [    0.701580] Freeing unused kernel memory: 688k freed
+Oct 14 13:07:28 leaf kernel: [    0.747759] SCSI subsystem initialized
+Oct 14 13:07:28 leaf kernel: [    0.757816] usbcore: registered new interface driver usbfs
+Oct 14 13:07:28 leaf kernel: [    0.758259] usbcore: registered new interface driver hub
+Oct 14 13:07:28 leaf kernel: [    0.765694] ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 10
+Oct 14 13:07:28 leaf kernel: [    0.778130] usbcore: registered new device driver usb
+Oct 14 13:07:28 leaf kernel: [    0.778910] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Oct 14 13:07:28 leaf kernel: [    0.779606] uhci_hcd: USB Universal Host Controller Interface driver
+Oct 14 13:07:28 leaf kernel: [    0.793587] ACPI: PCI Interrupt Link [LNKA] enabled at IRQ 10
+Oct 14 13:07:28 leaf kernel: [    0.808950] scsi0 : ata_piix
+Oct 14 13:07:28 leaf kernel: [    0.816962] scsi1 : ata_piix
+Oct 14 13:07:28 leaf kernel: [    0.817351] ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc0a0 irq 14
+Oct 14 13:07:28 leaf kernel: [    0.817871] ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc0a8 irq 15
+Oct 14 13:07:28 leaf kernel: [    0.820549] uhci_hcd 0000:00:01.2: UHCI Host Controller
+Oct 14 13:07:28 leaf kernel: [    0.821430] uhci_hcd 0000:00:01.2: new USB bus registered, assigned bus number 1
+Oct 14 13:07:28 leaf kernel: [    0.822879] uhci_hcd 0000:00:01.2: irq 11, io base 0x0000c040
+Oct 14 13:07:28 leaf kernel: [    0.823638] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Oct 14 13:07:28 leaf kernel: [    0.824455] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 14 13:07:28 leaf kernel: [    0.825307] usb usb1: Product: UHCI Host Controller
+Oct 14 13:07:28 leaf kernel: [    0.825853] usb usb1: Manufacturer: Linux 3.2.0-4-amd64 uhci_hcd
+Oct 14 13:07:28 leaf kernel: [    0.826291] usb usb1: SerialNumber: 0000:00:01.2
+Oct 14 13:07:28 leaf kernel: [    0.844646] FDC 0 is a S82078B
+Oct 14 13:07:28 leaf kernel: [    0.846135] hub 1-0:1.0: USB hub found
+Oct 14 13:07:28 leaf kernel: [    0.846501] hub 1-0:1.0: 2 ports detected
+Oct 14 13:07:28 leaf kernel: [    0.934880]  vda: vda1
+Oct 14 13:07:28 leaf kernel: [    1.076193] EXT4-fs (vda1): INFO: recovery required on readonly filesystem
+Oct 14 13:07:28 leaf kernel: [    1.076919] EXT4-fs (vda1): write access will be enabled during recovery
+Oct 14 13:07:28 leaf kernel: [    1.568190] Refined TSC clocksource calibration: 2399.987 MHz.
+Oct 14 13:07:28 leaf kernel: [    1.818396] EXT4-fs (vda1): orphan cleanup on readonly fs
+Oct 14 13:07:28 leaf kernel: [    1.820301] EXT4-fs (vda1): 7 orphan inodes deleted
+Oct 14 13:07:28 leaf kernel: [    1.820742] EXT4-fs (vda1): recovery complete
+Oct 14 13:07:28 leaf kernel: [    1.830117] EXT4-fs (vda1): mounted filesystem with ordered data mode. Opts: (null)
+Oct 14 13:07:28 leaf kernel: [    2.180288] i2c_piix4: Unknown symbol dmi_check_system_2 (err 0)
+Oct 14 13:07:28 leaf kernel: [    2.190211] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input1
+Oct 14 13:07:28 leaf kernel: [    2.190896] ACPI: Power Button [PWRF]
+Oct 14 13:07:28 leaf kernel: [    2.211144] processor: Unknown symbol dmi_check_system_2 (err 0)
+Oct 14 13:07:28 leaf kernel: [    2.269826] input: PC Speaker as /devices/platform/pcspkr/input/input2
+Oct 14 13:07:28 leaf kernel: [    2.271844] psmouse: Unknown symbol dmi_check_system_2 (err 0)
+Oct 14 13:07:28 leaf kernel: [    2.272291] psmouse: Unknown symbol dmi_first_match_2 (err 0)
+Oct 14 13:07:28 leaf kernel: [    2.319738] alg: No test for __gcm-aes-aesni (__driver-gcm-aes-aesni)
+Oct 14 13:07:28 leaf kernel: [    2.557367] EXT4-fs (vda1): re-mounted. Opts: (null)
+Oct 14 13:07:28 leaf kernel: [    2.597258] EXT4-fs (vda1): re-mounted. Opts: errors=remount-ro
+Oct 14 13:07:28 leaf kernel: [    3.835505] ip_tables: (C) 2000-2006 Netfilter Core Team
+Oct 14 13:07:28 leaf kernel: [    3.875085] nf_conntrack version 0.5.0 (3976 buckets, 15904 max)
+Oct 14 13:07:28 leaf kernel: [    3.903827] ip6_tables: (C) 2000-2006 Netfilter Core Team

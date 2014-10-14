@@ -1,0 +1,44 @@
+Oct 14 17:47:13 leaf dbus[1990]: [system] Reloaded configuration
+Oct 14 13:07:28 leaf acpid: starting up with netlink and the input layer
+Oct 14 13:07:28 leaf acpid: 1 rule loaded
+Oct 14 13:07:28 leaf acpid: waiting for events: event logging is off
+Oct 14 13:07:30 leaf mysqld_safe: Starting mysqld daemon with databases from /var/lib/mysql
+Oct 14 13:07:30 leaf mysqld: 141014 13:07:30 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+Oct 14 13:07:30 leaf mysqld: 141014 13:07:30 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+Oct 14 13:07:30 leaf mysqld: 141014 13:07:30 [Note] Plugin 'FEDERATED' is disabled.
+Oct 14 13:07:30 leaf mysqld: 141014 13:07:30 InnoDB: The InnoDB memory heap is disabled
+Oct 14 13:07:30 leaf mysqld: 141014 13:07:30 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+Oct 14 13:07:30 leaf mysqld: 141014 13:07:30 InnoDB: Compressed tables use zlib 1.2.7
+Oct 14 13:07:30 leaf mysqld: 141014 13:07:30 InnoDB: Using Linux native AIO
+Oct 14 13:07:30 leaf mysqld: 141014 13:07:30 InnoDB: Initializing buffer pool, size = 128.0M
+Oct 14 13:07:30 leaf mysqld: 141014 13:07:30 InnoDB: Completed initialization of buffer pool
+Oct 14 13:07:30 leaf mysqld: 141014 13:07:30 InnoDB: highest supported file format is Barracuda.
+Oct 14 13:07:30 leaf mysqld: 141014 13:07:30  InnoDB: Waiting for the background threads to start
+Oct 14 13:07:31 leaf mysqld: 141014 13:07:31 InnoDB: 5.5.38 started; log sequence number 1595685
+Oct 14 13:07:31 leaf mysqld: 141014 13:07:31 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+Oct 14 13:07:31 leaf mysqld: 141014 13:07:31 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+Oct 14 13:07:31 leaf mysqld: 141014 13:07:31 [Note] Server socket created on IP: '127.0.0.1'.
+Oct 14 13:07:31 leaf mysqld: 141014 13:07:31 [Note] Event Scheduler: Loaded 0 events
+Oct 14 13:07:31 leaf mysqld: 141014 13:07:31 [Note] /usr/sbin/mysqld: ready for connections.
+Oct 14 13:07:31 leaf mysqld: Version: '5.5.38-0+wheezy1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Debian)
+Oct 14 13:07:31 leaf /etc/mysql/debian-start[2587]: Upgrading MySQL tables if necessary.
+Oct 14 13:07:31 leaf /etc/mysql/debian-start[2591]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Oct 14 13:07:31 leaf /etc/mysql/debian-start[2591]: Looking for 'mysql' as: /usr/bin/mysql
+Oct 14 13:07:31 leaf /etc/mysql/debian-start[2591]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Oct 14 13:07:31 leaf /etc/mysql/debian-start[2591]: This installation of MySQL is already upgraded to 5.5.38, use --force if you still need to run mysql_upgrade
+Oct 14 13:07:31 leaf /etc/mysql/debian-start[2649]: Checking for insecure root accounts.
+Oct 14 13:07:31 leaf /etc/mysql/debian-start[2658]: Triggering myisam-recover for all MyISAM tables
+Oct 14 13:07:38 leaf ntpdate[1588]: step time server 199.102.46.77 offset 0.627461 sec
+Oct 14 13:07:53 leaf ntpdate[2999]: adjust time server 64.246.132.14 offset 0.000122 sec
+Oct 14 13:08:01 leaf ntpd[3004]: ntpd 4.2.6p5@1.2349-o Sat May 12 09:54:55 UTC 2012 (1)
+Oct 14 13:08:01 leaf ntpd[3005]: proto: precision = 0.137 usec
+Oct 14 13:08:01 leaf ntpd[3005]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Oct 14 13:08:01 leaf ntpd[3005]: Listen and drop on 1 v6wildcard :: UDP 123
+Oct 14 13:08:01 leaf ntpd[3005]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Oct 14 13:08:01 leaf ntpd[3005]: Listen normally on 3 eth0 104.131.37.86 UDP 123
+Oct 14 13:08:01 leaf ntpd[3005]: Listen normally on 4 eth0 fe80::601:25ff:feee:9901 UDP 123
+Oct 14 13:08:01 leaf ntpd[3005]: Listen normally on 5 lo ::1 UDP 123
+Oct 14 13:08:01 leaf ntpd[3005]: peers refreshed
+Oct 14 13:08:01 leaf ntpd[3005]: Listening on routing socket on fd #22 for interface updates
+Oct 14 13:22:53 leaf dbus[2041]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Oct 14 13:22:53 leaf dbus[2041]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
